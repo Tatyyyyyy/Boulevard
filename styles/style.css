@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'MB';
-    /* background: #151515; */
 }
 a {
     text-decoration: none;
@@ -26,11 +25,14 @@ ul {
 .header__nav-container {
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
+gap: 25px;
 padding: 6px 0;
 }
 .header__nav-left {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .header__nav-list,
@@ -64,6 +66,7 @@ padding: 6px 0;
     font-weight: 400;
     font-size: 100px;
     line-height: 75px;
+    text-align: center;
 }
 .header__content-link {
     display: flex;
@@ -91,20 +94,22 @@ padding: 6px 0;
     flex-direction: column;
     gap: 50px;
 }
-.main__item1,
-.main__item2,
-.main__item3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .main__item1 {
-    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 30px; 
 }
 .main__item2 {
+    display: flex;
+    align-items: center;
     gap: 87px;
 }
 .main__item3 {
+    display: flex;
+    align-items: center;
     gap: 12px;
 }
 .item__text {
@@ -113,6 +118,8 @@ padding: 6px 0;
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
+    max-width: 540px;
+    width: 100%;
 }
 .item__text3 {
     font-family: 'MM';
@@ -141,6 +148,8 @@ padding: 6px 0;
 .main__items-box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .item__box {
     display: flex;
@@ -177,7 +186,8 @@ padding: 6px 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    width: 161px;
+    max-width: 161px;
+    width: 100%;
     text-align: center;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -193,6 +203,8 @@ padding: 6px 0;
     align-items: center;
     padding-top: 81px;
     padding-bottom: 81px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .footer__nav-pay {
     display: flex;
