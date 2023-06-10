@@ -102,6 +102,12 @@ padding: 6px 0;
     flex-wrap: wrap; 
     gap: 30px; 
 }
+.main__item1 img {
+    max-width: 450px;
+    width: 100%;
+}
+
+
 .main__item2 {
     display: flex;
     align-items: center;

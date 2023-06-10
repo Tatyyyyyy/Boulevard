@@ -13,6 +13,10 @@
     .item__box {
         width: 50%;
     }
+    .item__img1 {
+        max-width: 400px;
+        
+    }
 }
 
 @media(max-width:1050px) {
@@ -31,10 +35,11 @@
     .main__item-img {
         max-width: 200px;
     }
-    .item__text3 {
-        max-width: 540px;
+    .main__item3 p:first-of-type {
+        max-width: 540px; 
         text-align: center;
     }
+    
     .item__text {
         text-align: center;
     }
